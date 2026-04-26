@@ -34,18 +34,22 @@ MySQL
 
 🗄️ Database Schema
 Table: Crime
-Column	Type	Description
-crime_id	INT (PK)	Auto-increment unique ID
-crime_type	VARCHAR	Type of crime
-location_id	INT	Location identifier
-status	VARCHAR	Status (Pending/Solved)
-date_time	TIMESTAMP	Record creation time
+Column	             Type	                 Description
+crime_id	          INT (PK)	       Auto-increment unique ID
+crime_type	        VARCHAR	         Type of crime
+location_id	        INT	             Location identifier
+status	            VARCHAR	         Status (Pending/Solved)
+date_time	          TIMESTAMP        Record creation time
+
 ⚙️ Setup Instructions
+
 1️⃣ Clone Repository
 git clone https://github.com/your-username/crime-management-system.git
 cd crime-management-system
+
 2️⃣ Install Dependencies
 npm install express mysql cors
+
 3️⃣ Setup Database
 Open MySQL and run:
 
@@ -59,12 +63,14 @@ CREATE TABLE Crime (
   status VARCHAR(20),
   date_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
 4️⃣ Run Backend Server
 node server.js
 You should see:
 
 ✅ MySQL Connected
 🚀 Server running on port 3000
+
 5️⃣ Run Frontend
 Simply open:
 
@@ -79,8 +85,11 @@ GET	/filter	Filter records
 Add your project screenshots here (UI, database, API output, etc.)
 
 ✅ Project Status
+
 ✔ Fully Functional
+
 ✔ Backend Connected
+
 ✔ Database Integrated
 
 📚 Learning Outcomes
