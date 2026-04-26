@@ -1,4 +1,5 @@
-📘 Crime Management System
+📘 Crime Data Analysis and Management System
+
 📌 Project Description
 The Crime Management System is a web-based application developed to manage crime records efficiently. It allows users to add, view, delete, and filter crime data stored in a database.
 
