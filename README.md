@@ -33,12 +33,19 @@ Database
 MySQL
 
 🗄️ Database Schema
+
 Table: Crime
+
 Column	             Type	                 Description
+
 crime_id	          INT (PK)	       Auto-increment unique ID
+
 crime_type	        VARCHAR	         Type of crime
+
 location_id	        INT	             Location identifier
+
 status	            VARCHAR	         Status (Pending/Solved)
+
 date_time	          TIMESTAMP        Record creation time
 
 ⚙️ Setup Instructions
@@ -102,6 +109,7 @@ Database integration
 Frontend-backend communication
 
 👨‍💻 Author
+
 Sunkara Naga Varshith
 
 ⭐ Support
